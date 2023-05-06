@@ -14,10 +14,10 @@ def main(input_file_path, csv_file_path):
     
     for kessai_dict in dict_list:
         page = copy(page_format)
-        page["Title"]["title"][0]["text"]["content"] = kessai_dict["加盟店"]
+        page["Merchant"]["title"][0]["text"]["content"] = kessai_dict["Merchant"]
         page["Date"]["date"]["start"] = kessai_dict["date"]
         page["Date"]["date"]["end"] = None
-        page["Fee"]["number"] = int(kessai_dict["price"])
+        page["Price"]["number"] = int(kessai_dict["price"])
         page["Type"]["select"]["name"] = kessai_dict["type"]
         page["Detail"]["rich_text"][0]["text"]["content"] = ""
         post_to_notion(page, True)
