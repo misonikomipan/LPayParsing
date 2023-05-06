@@ -1,5 +1,5 @@
 {
-    "Title": {
+    "Merchant": {
         "title": [
         {
             "text": {
@@ -15,7 +15,7 @@
         "end": "null"
     }
     },
-    "Fee": {
+    "Price": {
         "number": 1000
     },
     "Payment": {
