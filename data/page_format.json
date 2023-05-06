@@ -1,0 +1,40 @@
+{
+    "Title": {
+        "title": [
+        {
+            "text": {
+                "content": "sample"
+            }
+        }
+        ]
+    },
+    "Date": {
+    "date": {
+        "time_zone": "Asia/Tokyo",
+        "start": "2023-05-06T10:40:00",
+        "end": "null"
+    }
+    },
+    "Fee": {
+        "number": 1000
+    },
+    "Payment": {
+    "select": {
+        "name": "Sample"
+    }
+    },
+    "Type": {
+        "select": {
+            "name": "Sample"
+        }
+        },
+    "Detail": {
+    "rich_text": [
+        {
+        "text": {
+            "content": "this is sample of 家計簿 database"
+        }
+        }
+    ]
+    }
+}
