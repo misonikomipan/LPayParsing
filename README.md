@@ -1,5 +1,5 @@
 # LPayParsing
-LINE Payの決済履歴を構文解析でいい感じにして、Notionのデータベースに登録します。
+LINE Payの決済履歴を構文解析でいい感じにして、csvに保存（+Notionのデータベースに登録）します。
 
 ## 使い方
 1. PC版LINEにて「LINEウォレット」とのトーク画面を開く
